@@ -1,0 +1,72 @@
+@use "@styles/colors" as *;
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 12vh;
+  padding: 1rem 2rem;
+  background: $background;
+  box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  color: $font-color;
+  font-size: 2rem;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu__list {
+  display: flex;
+  list-style: none;
+}
+
+.menu__list li>a {
+  margin: 0 1rem;
+  color: $font-color-light;
+  font-size: 1.2rem;
+  font-weight: 600;
+
+  &:hover {
+    color: $font-color-hover;
+  }
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    top: 12vh;
+    left: -100%;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    transition: left 0.3s ease;
+  }
+
+  .menu.show {
+    left: 0;
+    display: flex;
+  }
+
+  .menu__list {
+    flex-direction: column;
+    align-items: center;
+    background: $background;
+    opacity: 0.7;
+  }
+
+  .menu__list li {
+    margin: 1rem 0;
+  }
+}

@@ -1,0 +1,44 @@
+@use "@styles/colors" as *;
+
+.BannerHero {
+  position: relative;
+  background-image: url('../../assets/img/destaque.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 65vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+  }
+
+  >* {
+    position: relative;
+    z-index: 2;
+  }
+}
+
+.BannerHeroContent {
+  padding: 5rem;
+  color: $font-color-light;
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    width: 55%;
+    padding: 1rem 0;
+  }
+}
