@@ -11,7 +11,10 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+body,
+input,
+textarea,
+button {
   font-family: 'Poppins', sans-serif;
   background-color: #f0eff9;
 }
