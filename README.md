@@ -26,7 +26,7 @@ Siga as etapas abaixo para rodar o projeto localmente:
 
 1. Clone o repositório:
   ```sh
-  git clone https://github.com/seu-usuario/apeperia.git
+  git clone https://github.com/MonicaAlvesP/apeperia.git
   cd apeperia
   ```
 
