@@ -21,6 +21,22 @@
   align-items: center;
   width: 80%;
   height: 50vh;
+  color: $font-color;
+
+  @media (max-width: 768px) {
+    justify-content: flex-start;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    gap: 1rem;
+
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
 }
 
 .card {
@@ -41,6 +57,12 @@
     width: 100%;
     text-align: center;
   }
+
+  @media (max-width: 768px) {
+    flex: 0 0 auto;
+    width: 100%;
+    scroll-snap-align: start;
+  }
 }
 
 .card_list {
@@ -60,4 +82,12 @@
 
 .notCheck {
   color: #ff0000;
+}
+
+@media (max-width: 768px) {
+  .container {
+    height: 100%;
+    width: 100%;
+    padding: 2rem 0;
+  }
 }

@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "avatar": "https://itforum.com.br/wp-content/uploads/2022/10/windows-11.jpg.webp",
+      "title": "Windows 11 ganha nova atualização focada em produtividade",
+      "date": "2025-01-15",
+      "time": "10:00",
+      "content": "A Microsoft lançou uma nova atualização para o Windows 11 que inclui ferramentas avançadas para multitarefa, como desktops virtuais aprimorados e integração mais profunda com inteligência artificial no Microsoft Copilot. A atualização promete aumentar a produtividade para usuários corporativos e domésticos."
+    },
+    {
+      "id": 2,
+      "title": "macOS Sonoma traz melhorias para desenvolvedores",
+      "date": "2025-01-14",
+      "time": "08:30",
+      "content": "A Apple anunciou novos recursos no macOS Sonoma voltados para desenvolvedores, como ambientes de teste otimizados no Xcode e suporte melhorado para aplicativos criados com Swift. O objetivo é tornar o desenvolvimento no ecossistema Apple mais ágil e eficiente."
+    },
+    {
+      "id": 3,
+      "title": "Android 14 aposta em privacidade e personalização",
+      "date": "2025-01-13",
+      "time": "12:45",
+      "content": "Com o lançamento oficial do Android 14, o Google trouxe avanços significativos em privacidade, incluindo permissões mais restritas para aplicativos e maior controle sobre dados compartilhados. Além disso, o sistema agora permite personalizações avançadas de interface."
+    },
+    {
+      "id": 4,
+      "title": "Linux Kernel 6.5 é lançado com desempenho superior",
+      "date": "2025-01-12",
+      "time": "15:10",
+      "content": "O Linux Kernel 6.5 foi lançado com foco em desempenho e suporte a novos hardwares, incluindo GPUs mais recentes e processadores de última geração. A atualização promete melhorar a experiência dos usuários, especialmente aqueles que usam Linux em estações de trabalho."
+    },
+    {
+      "id": 5,
+      "title": "ChromeOS se integra melhor a dispositivos móveis",
+      "date": "2025-01-11",
+      "time": "17:20",
+      "content": "O ChromeOS agora oferece uma integração mais fluida com smartphones Android, permitindo transferências instantâneas de arquivos e notificações espelhadas. A novidade visa facilitar a vida dos usuários que dependem do ecossistema do Google."
+    }
+  ]
+}

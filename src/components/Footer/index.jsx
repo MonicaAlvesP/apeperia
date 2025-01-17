@@ -6,7 +6,7 @@ export const Footer = () => {
   return (
     <>
       <footer className={s.Footer}>
-        <img src={Logo} alt="Logo da apeperia" />
+        <img src={Logo} alt="Logo da apeperia" className={s.logo} />
         <section className={s.FooterSections}>
           <h4>Formas de Pagamento</h4>
           <div className={s.PaymentMethods}>

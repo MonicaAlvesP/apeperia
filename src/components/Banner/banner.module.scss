@@ -5,7 +5,7 @@
   background-image: url('../../assets/img/destaque.jpg');
   background-size: cover;
   background-position: center;
-  height: 65vh;
+  height: 80vh;
 
   display: flex;
   flex-direction: column;
@@ -40,5 +40,17 @@
   p {
     width: 55%;
     padding: 1rem 0;
+  }
+
+  @media (max-width: 768px) {
+    padding: 2rem;
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    p {
+      width: 100%;
+    }
   }
 }
