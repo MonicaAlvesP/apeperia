@@ -7,11 +7,11 @@ export const Footer = () => {
     <>
       <footer className={s.Footer}>
         <img src={Logo} alt="Logo da apeperia" className={s.logo} />
-        <section className={s.FooterSections}>
+        <section className={s.Payments}>
           <h4>Formas de Pagamento</h4>
           <div className={s.PaymentMethods}>
             <img src="https://img.icons8.com/?size=100&id=22128&format=png&color=002335" alt="credito" />
-            <small>Cartão de crédito</small>
+            <small>Debito/Credito</small>
           </div>
 
           <div className={s.PaymentMethods}>

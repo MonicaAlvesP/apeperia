@@ -12,6 +12,11 @@
   img {
     height: 6vh;
   }
+
+  h4 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
 }
 
 .FooterSections {
@@ -19,11 +24,6 @@
   flex-direction: column;
   gap: 0.5rem;
   width: 20%;
-
-  h4 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-  }
 }
 
 .FooterLinks {
@@ -80,6 +80,8 @@
 @media (max-width: 768px) {
   .Footer {
     flex-direction: column;
+    align-items: center;
+    text-align: center;
     gap: 1rem;
 
     .logo {
@@ -89,16 +91,25 @@
 
   .FooterSections {
     width: 100%;
-    align-items: center;
     gap: 1rem;
   }
 
+  .Payments {
+    display: none;
+  }
+
   .FooterLinks {
+    display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 1rem;
   }
 
   .FooterSocial {
     justify-content: center;
+  }
+
+  .license {
+    text-align: center;
   }
 }
